@@ -1,0 +1,40 @@
+.navbar {
+    background-color: rgba(104, 151, 236, 0.8);
+    margin-bottom: 5px;
+}
+.dropdown-menu {
+    background-color: #e081811a;
+}
+.dropdown-item {
+    background-color: rgb(104, 151, 236);
+}
+.footer {
+    display: block;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: -6rem !important;
+    background-color: lightgray;
+
+}
+.article {
+    background-color: rgba(113, 155, 168, 0.582);
+    box-shadow: 5px 2px 4px 4px rgb(131, 131, 236);
+}
+.content {
+    margin-left: 20px;
+    margin-right: 15px;
+}
+.bg-lightgray {
+    background-color: lightgray;
+}
+.test {
+    border: 1px solid red;
+}
+body {
+    background: #56CCF2; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
