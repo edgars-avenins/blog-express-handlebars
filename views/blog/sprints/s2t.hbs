@@ -1,0 +1,110 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>What is the difference between Margin, Border, and Padding?</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <h5>Lets start with the simplest one in my opinion - Border</h5>
+        </div>
+        <div class="col-2">
+            <p class="border border-warning">Test Box</p>
+        </div>
+        <div class="col-6">
+            <p class="border rounded border-succes">They look nice and offer a lot of editting posibillities which I'm
+                still learning</p>
+            <p>It's the line that separates margin from padding. It can be used to help better understand how big are
+                your elements i.e.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1 test">
+            <p>col-1</p>
+        </div>
+        <div class="col-2 test">
+            <p>col-2</p>
+        </div>
+        <div class="col-3 test">
+            <p>col-3</p>
+        </div>
+        <div class="col-6 test">
+            <p>col-6</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-12">
+            <h4>For the second one lets look at padding, if you ask me it's about to get a bit more confusing</h4>
+        </div>
+        <div class="col-12">
+            <p>Think of it this way - padding is the part between element context and border(it's really useful to use
+                borders in order to better understand how big is what)</p>
+        </div>
+        <div class="col-12 d-flex">
+            <p class="test p-1">Padding 1</p>
+            <p class="test p-2">Padding 2</p>
+            <p class="test p-3">Padding 3</p>
+            <p class="test p-4">Padding 4</p>
+            <p class="test p-5">Padding 5</p>
+        </div>
+        <div class="col-12">
+            <p>To understand example above we must assume that there is the same amount of space under text as there is
+                above it(Current display is different because of column usage). Padding is something that once assigned
+                is going to be there and if screen becomes too small we might start to see some anomalies.But as you can
+                see what we are doing is increasing our element cover area. This next example will make more sense of
+                it.</p>
+            <div>
+                <button class="p-1">Padding 1</button>
+                <button class="p-3">Padding 3</button>
+            </div>
+            <p>Padding works really well with buttons especially if you need to make them easier to click. And while
+                official documents are good at trying to explain the difference between padding and margin while doing
+                simple online searches quite often people mentioned using padding only for increasing element cover
+                area. And buttons are the most widely used example for that.</p>
+        </div>
+    </div>
+
+    <hr>
+    <div class="row">
+        <div class="col-12">
+            <h1>And finally we are at margins which in my opinion are a bit of a challenge, but I will do my best to
+                explain them</h1>
+        </div>
+        <div class="row">
+            <div class="col-12 d-flex">
+                <p class="m-1 test">Margin 1</p>
+                <p class="m-2 test">Margin 2</p>
+                <p class="m-3 test">Margin 3</p>
+                <p class="m-4 test">Margin 4</p>
+                <p class="m-5 test">Margin 5</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="m-1 test">Margin 1</p>
+                <p class="m-2 test">Margin 2</p>
+                <p class="m-3 test">Margin 3</p>
+                <p class="m-4 test">Margin 4</p>
+                <p class="m-5 test">Margin 5</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>As you can see the active region is way smaller yet they are spaced out. Another big difference is
+                    when margins are used on elements that are aligned vertically. These margins then start to overlap.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <h5>Conclusion</h5>
+                <p>I find that you can do a lot with margins, especially because they accept negative values as well.
+                    This is one of the reasons why I find official documentation of them a bit short. There is so much
+                    more to do with them and I still have a lot if exploring to do</p>
+            </div>
+        </div>
+
+    </div>
+</div>
