@@ -3,6 +3,8 @@
 // Import packages into our file
 const express = require('express')
 const hbs = require('express-handlebars')
+const baseRoutes = require('./routes/baseRoutes')
+const sprintRoutes = require('./routes/sprintRoutes')
 
 // Set up express server
 const server = express()
@@ -19,13 +21,8 @@ server.use(express.static('public'))
 
 
 // Set up routes
-server.get('/', (req, res) => {
-    res.render('blog/indexBody', {})
-})
-
-// server.get('/blog', (req, res) => {
-//     res.send("Blog Page")
-// })
+server.use('/', baseRoutes)
+server.use('/sprint', sprintRoutes)
 
 // Exports our server for use elsewhere
 module.exports = server
